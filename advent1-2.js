@@ -1,5 +1,5 @@
 const getString = () => {
-  File = require('fs').readFileSync('advent2.txt', 'utf8');
+  File = require('fs').readFileSync('advent1-2.txt', 'utf8');
   return File.split('\n');
 }
 

@@ -12,7 +12,7 @@
 // ]
 
 const getString = () => {
-  File = require('fs').readFileSync('advent1.txt', 'utf8');
+  File = require('fs').readFileSync('advent1-1.txt', 'utf8');
   return File.split('\n');
 }
 
